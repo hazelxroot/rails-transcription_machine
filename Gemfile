@@ -57,3 +57,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+
+gem "solid_queue"
+gem "mission_control-jobs"

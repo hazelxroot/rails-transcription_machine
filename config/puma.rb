@@ -28,6 +28,7 @@ port ENV.fetch("PORT", 3000)
 
 # Allow puma to be restarted by `bin/rails restart` command.
 plugin :tmp_restart
+plugin :solid_queue
 plugin :tailwindcss if Rails.env.local?
 
 # Specify the PID file. Defaults to tmp/pids/server.pid in development.
